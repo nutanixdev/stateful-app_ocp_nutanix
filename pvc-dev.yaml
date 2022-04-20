@@ -5,7 +5,7 @@ metadata:
 spec:
  storageClassName: nutanix-volumes
  dataSource:
-   name: postgresql-snapshot-1
+   name: postgresql-snapshot-0
    kind: VolumeSnapshot
    apiGroup: snapshot.storage.k8s.io
  accessModes:
