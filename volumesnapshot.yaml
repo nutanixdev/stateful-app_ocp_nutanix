@@ -2,7 +2,6 @@ apiVersion: snapshot.storage.k8s.io/v1beta1
 kind: VolumeSnapshot
 metadata:
   name: postgresql-snapshot-0
-  namespace: default
 spec:
   volumeSnapshotClassName: nutanix-volume-snapshot-class
   source:
