@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Reset volumesnapshot.yaml to the initial value
-sed -i -e '/time/d' volumesnapshot.yaml 
-sed -i -e '/^$/d' volumesnapshot.yaml 
-sed -i -e "s/postgresql-snapshot-[012345]/postgresql-snapshot-0/g" volumesnapshot.yaml
+sed -i -e '/time/d' manifests/volumesnapshot.yaml 
+sed -i -e '/^$/d' manifests/volumesnapshot.yaml 
+sed -i -e "s/postgresql-snapshot-[012345]/postgresql-snapshot-0/g" manifests/volumesnapshot.yaml
 
 
 # Delete the applications
