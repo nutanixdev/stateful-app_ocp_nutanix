@@ -3,7 +3,7 @@
 
 In this demo, we will run a PostgreSQL database on OpenShift Container Platform and Nutanix HCI.
 
-The files in this repo are meant to be used together with this blog post. Follow the blog for detailed steps and a complete walkthrough.
+The files in this repo are meant to be used together with this [blog post](https://www.nutanix.dev/2022/04/29/running-stateful-applications-with-red-hat-openshift-on-nutanix-hci/). Follow the blog for detailed steps and a complete walkthrough.
 
 ## How to use the files in this repo
 
